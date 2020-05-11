@@ -157,3 +157,15 @@ h2{
   font-weight: 800;
   font-size: 50px;
 }
+
+.highlight{
+  background-color: #FFADF9;
+  color:#FF3300;
+  padding: 5px 10px;
+  display: inline;
+  font-weight:800;
+}
+
+.more-info p{
+  margin: 18px 0 35px;
+}
