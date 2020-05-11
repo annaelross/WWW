@@ -28,9 +28,11 @@ h3{
 
 .hero-banner{
   background-color: #007FFF;
-  height: 100vh;
+  min-height: 100vh;
   padding: 50px 20px;
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-banner h4{
@@ -50,24 +52,27 @@ h3{
 
 .character1{
   background: url(img/cake.png) no-repeat 0 0;
-
+  background-size: 30%;
   width:840px;
   height:859px;
-  position: absolute; top: 117px; right: 89px;
+  position: absolute; top: 170px; right: -375px;
+  transform: rotate(15deg);
 }
 
 .character2{
   background: url(img/masks.png) no-repeat 0 0;
+  background-size: 30%;
   width:900px;
   height:660px;
-  position: absolute; top: 213px; right: 277px;
+  position: absolute; top: 300px; right: -325px;
 }
 
 .character3{
   background: url(img/logo.png) no-repeat 0 0;
+  background-size: 100%;
   width:250px;
   height:250px;
-  position: absolute; bottom: 74px; right: 109px;
+  position: absolute; bottom: 100px; right: 109px;
 }
 
 a.cta,
