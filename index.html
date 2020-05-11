@@ -35,7 +35,7 @@
 
   <ul>
     <li>
-      <a href="#">Sign Up</a></li>
+      <a href="javascript:" onclick="showPopup();">Sign Up</a></li>
       <li><a href="#story">The Story</a></li>
       <li><a href="#more-info">More Info</a>
     </li>
@@ -47,7 +47,7 @@
     <div class="wrapper">
   <h2>Join our Fan Club</h2>
   <p>Every week we have <span class="highlight">a Zoom Party.</span> If you want to join us then join our fan club. Members will also receive our unconditional love. Cool huh?</p>
-  <button class="cta">Sign Me Up!</button>
+  <button class="cta" onclick="showPopup();">Sign Me Up!</button>
   </div>
   </div>
 
@@ -90,35 +90,42 @@
   </div>
 </footer>
 
-<div class="popup">
+<div class="popup" id="popup">
   <div class="blanket">
 
   </div>
   <div class="content">
     <h2>Fill in Your Details</h2>
     <form action="">
+      <div class="row">
       <div class="item">
-        <label for="Your First Name"></label>
+        <label for="Your First Name">Your First Name</label>
         <input type="text" placeholder="Joe" value="Bettina">
       </div>
       <div class="item">
-        <label for="Your Last Name"></label>
+        <label for="Your Last Name">Your Last Name</label>
         <input type="text" placeholder="Smith">
       </div>
+      </div>
+      <div class="row">
       <div class="item">
-        <label for="Your Favorite Color"></label>
+        <label for="Your Favorite Color">Your Favorite Color</label>
         <input type="text" placeholder="Pink">
       </div>
       <div class="item">
-        <label for="Your Favorite Food"></label>
+        <label for="Your Favorite Food">Your Favorite Food</label>
         <input type="text" placeholder="Apple Pie">
+      </div>
       </div>
       <button class="cta">I Want In!</button>
     </form>
-    <button class="close">
-    Close
+    <button class="close" onclick="hidePopup();">
     </button>
   </div>
 </div>
+
+<script src="script.js" type="text/javascript"></script>
+
 </body>
+
 </html>
