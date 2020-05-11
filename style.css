@@ -94,3 +94,66 @@ button.cta.alt{
   color: black;
   box-shadow: 0 0 0 10px rgba(0, 0, 0, .15);
 }
+
+nav{
+  height: 100px;
+  background-color: white;
+  box-shadow:0 5px 8px rgba(0, 0, 0, .2);
+  position: sticky;
+  top: 0;
+}
+
+nav .logo{
+  display: block;
+  height: 132px;
+  width: 832px;
+  position: absolute; top: 40%; left: 0;
+  margin-top: -15px;
+  margin-left: 30px;
+  background: url(img/gbbo.png) no-repeat 0 0;
+  background-size:40%;
+  overflow: hidden;
+  text-indent: -1500px;
+}
+
+nav ul{
+  padding:0;
+  margin:0 20px 0 0;
+}
+
+nav ul li{
+  padding:0;
+  margin:0;
+  display:block;
+  float: right;
+}
+
+nav ul li a{
+  display:block;
+  height: 100%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size:30px;
+  color: #111111;
+  text-decoration: none;
+  padding: 35px 10px;
+  line-height: 30px;
+}
+
+.more-info{
+  text-align: center;
+}
+
+
+p{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: normal;
+  margin: 30px 0;
+}
+
+h2{
+  font-weight: 800;
+  font-size: 50px;
+}
